@@ -12,7 +12,7 @@ from email.mime.multipart import MIMEMultipart
 def send():
     server = sm.SMTP("smtp.gmail.com",587)
     server.starttls()
-    server.login("sanketlodhe9067@gmail.com","ngsafptslxynynux")
+    server.login("sanketlodhe9067@gmail.com","...................")
     from_ = "sanketlodhe9067@gmail.com"
     to_ = "lodhesanket666@gmail.com"
     message = MIMEMultipart("alternative")
